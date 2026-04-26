@@ -1,24 +1,21 @@
 # HamsaDex — React Pokédex Application
 
-![React](https://img.shields.io/badge/React-19-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue)
-![Vite](https://img.shields.io/badge/Vite-purple)
+![React](https://img.shields.io/badge/React-19-blue)  
+![TypeScript](https://img.shields.io/badge/TypeScript-blue)  
+![Vite](https://img.shields.io/badge/Vite-purple)  
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)
 
 ---
 
 ## 🌐 Live Demo
 
-GitHub Pages Deployment:
-
+**GitHub Pages Deployment:**  
 https://hamushh.github.io/HamsaDex/
 
-Repository:
-
+**Repository:**  
 https://github.com/Hamushh/HamsaDex
 
-LinkedIn:
-
+**LinkedIn:**  
 https://www.linkedin.com/in/hamsa-s-853535314/
 
 ---
@@ -29,34 +26,126 @@ HamsaDex is a Pokédex-style web application developed using React, TypeScript, 
 
 The application allows users to browse Pokémon data retrieved from PokéAPI, navigate through paginated results, search for Pokémon by name or ID, and view detailed information for each Pokémon.
 
-The project focuses on clean UI design, reusable components, structured code organization, API integration, and deployment using GitHub Pages.
-
 ---
 
 ## ✅ Assignment Requirements Covered
 
 ### 1. Fetch Data from an External API
 
-The application retrieves Pokémon data from:
-
 https://pokeapi.co/
-
-Data is fetched dynamically using the Fetch API.
-
----
 
 ### 2. Pagination
 
-The Pokédex displays Pokémon in pages instead of loading everything at once.
-
-Pagination is implemented using:
-
 - Next button  
 - Previous button  
-- `limit` and `offset` query parameters  
+- limit and offset  
 
 Example:
-
-```text
 https://pokeapi.co/api/v2/pokemon?limit=12&offset=0
 
+### 3. Pokémon Detail View
+
+- Artwork  
+- ID  
+- Types  
+- Height  
+- Weight  
+- Abilities  
+- Stats  
+
+Route example:
+`/pokemon/pikachu`
+
+### 4. Multiple Pages
+
+- Home  
+- Pokédex  
+- About  
+- Details  
+
+### 5. Built with Vite
+
+React + TypeScript + Vite
+
+---
+
+## ⭐ Features
+
+- Responsive UI  
+- Pokémon grid  
+- Search by name or ID  
+- Pagination  
+- Detail pages  
+- Loading states  
+- Error handling  
+- GitHub Pages deployment  
+
+---
+
+## 🛠️ Technologies
+
+- React  
+- TypeScript  
+- Vite  
+- React Router  
+- CSS  
+- PokéAPI  
+
+---
+
+## 📁 Structure
+
+```
+src/
+├── api/
+├── components/
+├── pages/
+├── types/
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+## ⚙️ Run Locally
+
+```
+git clone https://github.com/Hamushh/HamsaDex.git
+cd HamsaDex
+npm install
+npm run dev
+```
+
+---
+
+## 🚀 Build
+
+```
+npm run build
+npm run preview
+```
+
+---
+
+## 🌍 Deploy
+
+```
+npm run deploy
+```
+
+---
+
+## 👤 Author
+
+Hamsa Abdullah Sheikhdon  
+Software Technology Engineering  
+VIA University College  
+
+https://www.linkedin.com/in/hamsa-s-853535314/
+
+---
+
+## 📡 API
+
+https://pokeapi.co
